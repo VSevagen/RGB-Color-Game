@@ -1,0 +1,66 @@
+.space {
+	margin-left: 250px;
+}
+
+.square {
+	width: 30%;
+	border: 2px solid black;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 25px;
+	transition: background 1.0s;
+}
+
+#container {
+	width: 50%;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #232323;
+}
+
+h1, h4{
+	color: white;
+	margin: 0;
+	padding: 5px;
+	font-weight: normal;
+}
+
+.colorDisplay {
+	font-size: 4rem;
+}
+
+.top {
+	background-color: steelblue;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+.stripe {
+	text-align: center;
+	background-color: white;
+	text-transform: uppercase;
+}
+
+.message {
+	padding-left: 15%;
+	padding-right: 15%;
+	text-align: center;
+}
+
+.btn-outline-primary:hover {
+	color: white;
+	background-color: steelblue;
+}
+
+.btn-outline-primary {
+	color:steelblue;
+	border-color: white;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	transition: all 1s;
+	outline: none;
+}
